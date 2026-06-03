@@ -65,6 +65,7 @@ ArcGIS Online with the query '<b>owner:landinformationontario</b>', all of
 <a href="https://geohub.lio.gov.on.ca" target="_blank">Geospatial
 Ontario's</a> official datasets will be returned - no need to download and re-upload
 them.
+
 <a href='{{ '/assets/images/geospatial-ontario-search.png' | relative_url }}' target="_blank">
 <img src='{{ '/assets/images/geospatial-ontario-search.png' | relative_url }}' alt="
 Browse layers -> owner:landinformationontario" width='100%' height='100%'  style="border: 3px solid #888888;" />
@@ -72,6 +73,7 @@ Browse layers -> owner:landinformationontario" width='100%' height='100%'  style
 
 Additionally, it may be helpful to search within ArcGIS Online and apply a <b>filter</b> to return
 <b>'authoritative' results only</b>. Example:
+
 <a href='{{ '/assets/images/authoritative-search.png' | relative_url }}' target="_blank">
 <img src='{{ '/assets/images/authoritative-search.png' | relative_url }}' alt="
 Filters -> Status -> Authoritative" width='100%' height='100%'  style="border: 3px solid #888888;" />

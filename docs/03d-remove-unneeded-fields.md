@@ -15,12 +15,19 @@ maintainer:
 ## Reduce a layer's complexity by removing unneeded fields
 
 If your spatial dataset has a large number of unnecessary fields (columns), you
-can simplify it by removing the ones you don't need.
+can simplify it by <b>removing the ones you don't need</b>.
 
 Deleting excess fields will save space on the
 server and have the added benefit of giving you cleaner, more organized data
 to work with. This can be done in desktop GIS software before you upload the
 data, or it can be done directly in ArcGIS Online.
+
+<b>
+Jump to:
+<a href="#removing-unneeded-fields-in-arcgis-pro">ArcGIS Pro instructions</a> |
+<a href="#removing-unneeded-fields-in-qgis">QGIS instructions</a> |
+<a href="#removing-unneeded-fields-in-arcgis-online">ArcGIS Online instructions</a>
+</b>
 
 ### Removing unneeded fields in ArcGIS Pro
 
@@ -28,9 +35,7 @@ Example: This layer of world country boundaries (downloaded from
 <a href="https://www.naturalearthdata.com/" target="_blank">
 Natural Earth</a>) has 170 fields - that's a lot! It may be, however, that you
 only need a few of these fields for your work. Here's how you can remove the
-ones you don't need. (As in the rest of
-this guide, the steps below are shown using ArcGIS Pro, but the process is
-similar in QGIS.)
+ones you don't need.
 
 <a href='{{ '/assets/images/countries-layer.png' | relative_url }}' target="_blank">
 <img src='{{ '/assets/images/countries-layer.png' | relative_url }}' alt="
@@ -75,6 +80,71 @@ it as a shapefile.
 <img src='{{ '/assets/images/simplified-attribute-table.png' | relative_url }}' alt="
 Spatial layer with simplified attribute table" width='100%' height='100%' style="border: 3px solid #888888;" />
 </a>
+
+### Removing unneeded fields in QGIS
+• Open QGIS and load your layer.
+
+<a href='{{ '/assets/images/qgis-ne-layer.png' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/qgis-ne-layer.png' | relative_url }}' alt="
+Natural Earth countries layer in QGIS" width='100%' height='100%' style="border: 3px solid #888888;" />
+</a>
+
+• <b>Right-click (or Control-click on MacOS)</b> the layer name in the Layers Panel and
+choose <b>Properties</b>.
+
+<a href='{{ '/assets/images/qgis-layer-properties.png' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/qgis-layer-properties.png' | relative_url }}' alt="
+Right-click layer -> Properties" width='100%' height='100%' style="border: 3px solid #888888;" />
+</a>
+
+• Click the <b>Fields</b> tab.
+
+<a href='{{ '/assets/images/qgis-properties-fields.png' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/qgis-properties-fields.png' | relative_url }}' alt="
+Properties -> Fields" width='100%' height='100%' style="border: 3px solid #888888;" />
+</a>
+
+• Click the <b>Pencil button</b> to enable editing of fields.
+
+<a href='{{ '/assets/images/qgis-fields-edit-button.png' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/qgis-fields-edit-button.png' | relative_url }}' alt="
+QGIS field edit button" width='100%' height='100%' style="border: 3px solid #888888;" />
+</a>
+
+• <b>Select</b> the fields you'd like to remove by left-clicking them (Shift-click
+to select multiple.)
+
+<a href='{{ '/assets/images/qgis-selected-fields.png' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/qgis-selected-fields.png' | relative_url }}' alt="
+Select fields to delete" width='100%' height='100%' style="border: 3px solid #888888;" />
+</a>
+
+• Click the <b>Delete field</b> button.
+
+<a href='{{ '/assets/images/qgis-delete-field-button.png' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/qgis-delete-field-button.png' | relative_url }}' alt="
+Delete field button" width='100%' height='100%' style="border: 3px solid #888888;" />
+</a>
+
+• All of the fields you'd selected will be removed. Click the <b>Save</b>
+button.
+
+<a href='{{ '/assets/images/qgis-field-edit-save.png' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/qgis-field-edit-save.png' | relative_url }}' alt="
+Save field edits" width='100%' height='100%' style="border: 3px solid #888888;" />
+</a>
+
+• Click the <b>Pencil button</b> again to toggle off edit mode. Click <b>OK</b>.
+
+<a href='{{ '/assets/images/qgis-field-edit-toggle.png' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/qgis-field-edit-toggle.png' | relative_url }}' alt="
+Toggle off edit mode" width='100%' height='100%' style="border: 3px solid #888888;" />
+</a>
+
+• You can now zip (compress) a shapefile of your layer and upload it to ArcGIS Online.
+More information on this is in
+<a href="https://doc.arcgis.com/en/arcgis-online/reference/shapefiles.htm" target="_blank">
+Esri's official documentation.</a>
 
 ### Removing unneeded fields in ArcGIS Online
 

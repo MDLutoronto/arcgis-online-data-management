@@ -52,7 +52,22 @@ through university license)
 • <a href="https://mdlutoronto.github.io/qgis-mapping-spatial-analysis-intro/"
 target="_blank">QGIS</a> (Free, works on Mac, Windows, or Linux)
 
-### Another option
+### Geospatial coding in Python or R
+
+Geospatial analysis and visualization packages are available for many popular
+programming languages, such as Python or R. If you have coding experience, or
+would like to learn, you can carry out many GIS workflows this way.
+
+<b>The Map and Data Library offers some introductory tutorials on these topics here:</b>
+
+• <a href="https://mdlutoronto.github.io/r-gis-intro/" target="_blank">
+Introduction to GIS using R</a>
+
+• <a href="https://mdlutoronto.github.io/python-jupyter-notebooks-geospatial-analysis/"
+target="_blank">Geospatial Analysis with Python & Jupyter Notebooks</a>
+
+
+### Other options for web-based projects
 
 <b>If you have web development skills (HTML, CSS, JavaScript), or would like to
 learn them</b>, you could deploy your own custom digital projects, including web

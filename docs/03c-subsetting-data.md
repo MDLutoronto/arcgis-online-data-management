@@ -14,8 +14,14 @@ maintainer:
 
 ## Subsetting data
 As an alternative to clipping, you can query a subset of features from your
-spatial layer to upload. Workflows for ArcGIS Pro and ArcGIS Online are below
-(the steps are very similar in QGIS).
+spatial layer to upload.
+
+<b>
+Jump to:
+<a href="#subsetting-in-arcgis-pro">ArcGIS Pro instructions</a> |
+<a href="#subsetting-in-qgis">QGIS instructions</a> |
+<a href="#subsetting-in-arcgis-online">ArcGIS Online instructions</a> |
+</b>
 
 ### Subsetting in ArcGIS Pro
 
@@ -68,6 +74,68 @@ features. It can now be added to ArcGIS Online.
 <img src='{{ '/assets/images/subsetted-layer.png' | relative_url }}' alt="
 New subset layer" width='100%' height='100%' style="border: 3px solid #888888;" />
 </a>
+
+### Subsetting in QGIS
+
+• Open <b>QGIS</b> and load the layer you'd like to extract a subset of features from.
+
+<a href='{{ '/assets/images/qgis-layer-to-subset.png' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/qgis-layer-to-subset.png' | relative_url }}' alt="
+Layer to subset in QGIS" width='100%' height='100%' style="border: 3px solid #888888;" />
+</a>
+
+• Right-click the layer name in the <b>Layers panel</b> and choose <b>Open
+attribute table</b>.
+
+<a href='{{ '/assets/images/qgis-open-attribute-table.png' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/qgis-open-attribute-table.png' | relative_url }}' alt="
+Right-click layer -> Open attribute table" width='70%' style="border: 3px solid #888888;" />
+</a>
+
+• Click the <b>Select by expression</b> button.
+
+<a href='{{ '/assets/images/qgis-select-by-expression.png' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/qgis-select-by-expression.png' | relative_url }}' alt="
+Attribute table -> Select by expression" width='100%' height='100%' style="border: 3px solid #888888;" />
+</a>
+
+• <b>Build a query</b> to select your features of interest (more information on
+queries in QGIS can be found
+<a href = "https://docs.qgis.org/latest/en/docs/user_manual/expressions/expression.html" target="_blank">
+in the official documentation.</a>). Click <b>Select features</b>, then click
+<b>Close</b>.
+
+<a href='{{ '/assets/images/qgis-selection-query.png' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/qgis-selection-query.png' | relative_url }}' alt='
+QGIS selection expression - in this example, "PRUID" = 12' width='100%' height='100%' style="border: 3px solid #888888;" />
+</a>
+
+• Result: selected features will be <b>highlighted in yellow</b> on the map canvas, and the
+count of selected features will be displayed in the QGIS status bar.
+
+<a href='{{ '/assets/images/qgis-selected-features.png' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/qgis-selected-features.png' | relative_url }}' alt='
+Display of selected features in QGIS.' width='100%' height='100%' style="border: 3px solid #888888;" />
+</a>
+
+• Right-click the layer name again and choose <b>Export -> Save Selected
+Features As...</b>
+
+<a href='{{ '/assets/images/save-selected-features-as.png' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/save-selected-features-as.png' | relative_url }}' alt='
+Export -> Save selected features as' width='100%' height='100%' style="border: 3px solid #888888;" />
+</a>
+
+• Save the output to your computer as an <b>Esri Shapefile</b>. Click <b>OK</b>.
+
+<a href='{{ '/assets/images/save-as-shapefile.png' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/save-as-shapefile.png' | relative_url }}' alt='
+Save as shapefile' width='100%' height='100%' style="border: 3px solid #888888;" />
+</a>
+
+• You can now zip (compress) the output shapefile and upload it to ArcGIS Online. More
+information on this is in
+<a href="https://doc.arcgis.com/en/arcgis-online/reference/shapefiles.htm" target="_blank">Esri's official documentation.</a>
 
 ### Subsetting in ArcGIS Online
 

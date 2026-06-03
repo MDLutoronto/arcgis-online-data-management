@@ -68,7 +68,17 @@ style="border: 3px solid #888888;" />
 
 If you'd like to estimate how many credits an operation will consume, take a
 look at <a href="https://doc.arcgis.com/en/arcgis-online/administer/credits.htm#ESRI_SECTION1_709121D2C7694DCAB9B8592F36F7A5BA"
-target="_blank">this table</a> in the official documentation, which provides a
+target="_blank">this table</a> in Esri's official documentation, which provides a
 breakdown of credit expenditure by activity. (Note: Storing
 files and feature layers won't consume credits from your account - these are
 taken from the organization's credit pool.)
+
+The analysis tools found in the ArcGIS Online Map Viewer also have an
+<b>estimate credits</b> feature. Click this option before executing a tool to get an
+idea of what you're getting into.
+
+<a href='{{ '/assets/images/estimate-credits.jpg' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/estimate-credits.jpg' | relative_url }}' alt="
+Credits page" width='30%' style="border: 3px solid #888888;" />
+</a>
+

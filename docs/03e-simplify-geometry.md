@@ -26,6 +26,12 @@ have been precisely delineated. If you're performing an analysis of wetlands
 where this precision matters, you may need this extra detail. But if that extra
 precision isn't needed, you can save space by <b>generalizing</b> the features.
 
+<b>
+Jump to: 
+<a href='#simplifying-geometry-in-arcgis-pro'>ArcGIS Pro instructions</a> |
+<a href='#simplifying-geometry-in-qgis'>QGIS instructions</a>
+</b>
+
 ### Simplifying geometry in ArcGIS Pro
 
 • Open the <b>Simplify Polygon</b> (or Simplify Line if working with a line
@@ -82,3 +88,56 @@ You may also want to try some of the other tools available in ArcGIS Pro's
 <b>Generalization toolset</b>. You can learn more about them 
 <a href="https://doc.esri.com/en/arcgis-pro/latest/tool-reference/cartography/an-overview-of-the-generalization-toolset.html"
 target="_blank">here</a>.
+
+### Simplifying geometry in QGIS
+• Open QGIS and load your layer.
+
+<a href='{{ '/assets/images/layer-to-smooth-in-qgis.png' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/layer-to-smooth-in-qgis.png' | relative_url }}' alt="
+Layer to simplify in QGIS" width='100%' height='100%' style="border: 3px solid #888888;" />
+</a>
+
+• From the <b>Processing Toolbox</b> open the <b>Vector geometry -> Simplify</b>
+tool.
+
+<a href='{{ '/assets/images/qgis-simplify-tool.png' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/qgis-simplify-tool.png' | relative_url }}' alt="
+Processing Toolbox -> Vector geometry -> Simplify" width='70%' style="border: 3px solid #888888;" />
+</a>
+
+• Select your layer as the <b>Input layer</b>, and save the <b>simplified output</b>
+to your filesystem as a <b>shapefile</b>. You can experiment with different values
+for the <b>Simplification method</b> and <b>Tolerance</b> parameters until
+you arrive at something that's a good trade-off between reducing the layer's
+complexity and retaining the information you need. Click <b>Run</b>.
+
+<a href='{{ '/assets/images/qgis-simplify-tool-params.png' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/qgis-simplify-tool-params.png' | relative_url }}' alt="
+Processing Toolbox -> Vector geometry -> Simplify" width='100%' height='100%' style="border: 3px solid #888888;" />
+</a>
+
+• The result will be a geometrically simplified layer. When uploaded to
+ArcGIS Online, it will use less storage space (in this example, feature
+storage consumption was reduced by 85%).
+
+<b>Before</b>:
+
+<a href='{{ '/assets/images/qgis-simplify-before.png' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/qgis-simplify-before.png' | relative_url }}' alt="
+Layer before simplification" width='100%' height='100%' style="border: 3px solid #888888;" />
+</a>
+
+<b>After</b>:
+
+<a href='{{ '/assets/images/qgis-simplify-after.png' | relative_url }}' target="_blank">
+<img src='{{ '/assets/images/qgis-simplify-after.png' | relative_url }}' alt="
+Layer after simplification" width='100%' height='100%' style="border: 3px solid #888888;" />
+</a>
+
+If you'd like to try some simplification tools with more options, we recommend
+the <a href="https://plugins.qgis.org/plugins/geo_sim_processing/"
+target="_blank">Geo Simplification plugin</a> for QGIS.
+
+To further simplify
+your results, you might additionally want to query and delete the smallest features from
+the layer (see <a href='{{ '/03c-subsetting-data/#subsetting-in-qgis' | relative_url }}' target="_blank">Subsetting data in QGIS</a>).
