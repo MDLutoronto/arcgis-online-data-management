@@ -1,5 +1,5 @@
 ---
-title: Reduce a layer's spatial extent by clipping  # Title of the page, which will be displayed in the navigation and the browser title.
+title: Reduce a layer by clipping  # Title of the page, which will be displayed in the navigation and the browser title.
 layout: page  # Layout type, usually 'page' for standard pages.
 nav_order: 1  # Order in the navigation menu.
 parent: Managing feature storage
