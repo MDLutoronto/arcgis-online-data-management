@@ -14,6 +14,16 @@ maintainer:
 
 ## Clipping data
 
+
+
+<figure>
+<img src='{{ '/assets/images/clip-tool-graphic.gif' | relative_url }}' alt="
+Example of subsetting spatial data by clipping" width='70%' style="border: 3px solid #888888;" />
+<figcaption>Image source: <a href="https://commons.wikimedia.org/wiki/File:Example_of_Clip_Tool_process.gif"
+target="_blank">Wikimedia Commons</a>. <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+target="_blank">CC-BY-SA 4.0</a>.</figcaption>
+</figure>
+
 You may be working with a spatial layer that is much more geographically 
 expansive than your study area. In this case, you can <b>clip or subset</b> the layer to your
 area of interest using ArcGIS Pro or QGIS before adding it to ArcGIS Online.

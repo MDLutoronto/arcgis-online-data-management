@@ -13,6 +13,7 @@ maintainer:
 ---
 
 ## Subsetting data
+
 As an alternative to clipping, you can query a subset of features from your
 spatial layer to upload.
 
@@ -25,55 +26,9 @@ Jump to:
 
 ### Subsetting in ArcGIS Pro
 
-• Open the layer's <b>attribute table</b> by right-clicking on
-it in the Contents pane and choosing <b>Attribute table</b>.
-
-<a href='{{ '/assets/images/show-attribute-table.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/show-attribute-table.png' | relative_url }}' alt="
-Show the attribute table" width='70%' style="border: 3px solid #888888;" />
-</a>
-
-• Click <b>Select by attributes</b>
-
-<a href='{{ '/assets/images/select-by-attributes.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/select-by-attributes.png' | relative_url }}' alt="
-Select by attributes" width='100%' height='100%' style="border: 3px solid #888888;" />
-</a>
-
-• Query the relevant features. Click <b>OK</b>. The features will be selected.
-In this example, features have been queried according to a categorical value
-(PRUID 12 means Nova Scotia in this dataset). You might also try querying
-features by size - for example, maybe you're only interested in polygons above
-or below a particular area threshold, or lines within a certain distance range.
-
-<a href='{{ '/assets/images/query-features.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/query-features.png' | relative_url }}' alt="
-Query data" width='70%' style="border: 3px solid #888888;" />
-</a>
-
-• Right-click the layer name in the Contents pane. Choose <b>Data -> Export
-features</b>.
-
-<a href='{{ '/assets/images/data-export-features.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/data-export-features.png' | relative_url }}' alt="
-Data -> Export features" width='100%' height='100%' style="border: 3px solid #888888;" />
-</a>
-
-• Make sure that the <b>Use the selected records</b> option is toggled on, and click
-<b>OK</b>.
-
-<a href='{{ '/assets/images/use-selected-records.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/use-selected-records.png' | relative_url }}' alt="
-Use the selected records" width='70%' style="border: 3px solid #888888;" />
-</a>
-
-• This will result in a new layer containing only the previously selected
-features. It can now be added to ArcGIS Online.
-
-<a href='{{ '/assets/images/subsetted-layer.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/subsetted-layer.png' | relative_url }}' alt="
-New subset layer" width='100%' height='100%' style="border: 3px solid #888888;" />
-</a>
+See our <b><a href="/arcgis-pro-extracting-geographic-features-from-larger-dataset/"
+target="_blank">Extracting the geographic features you need from a larger dataset in
+ArcGIS Pro</a></b> to learn how to subset data in Pro.
 
 ### Subsetting in QGIS
 

@@ -15,13 +15,13 @@ maintainer:
 ## Use GeoJSON for simple visualization
 
 Hosted feature layers are a special file format that supports ArcGIS Online's
-editing and analysis tools. If you only need to <b>visualize</b> your data,
-consider using <b>GeoJSON</b> (a lightweight spatial data format often
+editing functionality, analysis tools, and attachments. If you only need to
+<b>visualize</b> your data, consider using <b>GeoJSON</b> (a lightweight spatial data format often
 used on the Web) instead.
 
 You can export data in GeoJSON format from
 ArcGIS Pro. Alternatively, if your data is already in ArcGIS Online, you can
-convert it there and then delete your original hosted feature layer.
+create a GeoJSON export and then delete your original hosted feature layer.
 
 ### Creating a GeoJSON file in ArcGIS Pro
 
