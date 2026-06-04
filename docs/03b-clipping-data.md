@@ -74,7 +74,7 @@ Share as web layer" width='100%' height='100%' style="border: 3px solid #888888;
 ### Clipping data in QGIS
 
 • MDL has a separate tutorial for this too.
-<b>Follow the steps <a href="https://mdlutoronto.github.io/clipping-vector-data-in-arcgis-pro/"
+<b>Follow the steps <a href="https://mdlutoronto.github.io/clipping-vector-data-in-qgis/"
 target="_blank">here</a>.</b>
 
 • After performing the clip, <b>zip (compress) the output shapefile</b> and <b>upload</b> it to ArcGIS Online.
