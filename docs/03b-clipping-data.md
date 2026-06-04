@@ -14,8 +14,6 @@ maintainer:
 
 ## Clipping data
 
-
-
 <figure>
 <img src='{{ '/assets/images/clip-tool-graphic.gif' | relative_url }}' alt="
 Example of subsetting spatial data by clipping" width='70%' style="border: 3px solid #888888;" />
@@ -58,35 +56,14 @@ Jump to:
 
 ### Clipping data in ArcGIS Pro
 
-• Load your large data layer into ArcGIS Pro. Open the <b>geoprocessing
-toolbox</b> and search for <b>Clip</b>.
+• <b>Follow the steps in our <a href="https://mdlutoronto.github.io/clipping-vector-data-in-arcgis-pro/"
+target="_blank">Clipping vector data in ArcGIS Pro</a> tutorial.</b>
 
-<a href='{{ '/assets/images/clip-tool.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/clip-tool.png' | relative_url }}' alt="Analysis ->
-Tools -> Clip" width='100%' height='100%'  style="border: 3px solid #888888;" />
-</a>
-
-• Specify the layer to be clipped as the <b>Input features</b>. For the <b>Clip
-features</b> parameter, you can either specify an existing layer that will act
-as a 'cookie cutter' on your input layer, or click the pencil icon to define
-a clip area.
-
-
-<a href='{{ '/assets/images/clip-tool-parameters.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/clip-tool-parameters.png' | relative_url }}' alt="
-Clip tool parameters" width='100%' height='100%' style="border: 3px solid #888888;" />
-</a>
-
-• Click <b>Run</b>. The tool will output a new, clipped layer.
-
-<a href='{{ '/assets/images/new-clipped-layer.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/new-clipped-layer.png' | relative_url }}' alt="
-New clipped layer" width='100%' height='100%' style="border: 3px solid #888888;" />
-</a>
-
-• The clipped layer can be uploaded to ArcGIS Online by right-clicking its
+• Once you've created a clipped layer, it can be uploaded to ArcGIS Online by
+right-clicking its
 name in the Contents pane and choosing <b>Sharing -> Share as web layer</b>.
-(Alternatively/if you're using QGIS, save the layer as a zipped shapefile
+(Alternatively, save the layer as a
+<a href="https://doc.arcgis.com/en/arcgis-online/reference/shapefiles.htm" target="_blank">shapefile</a>, zip/compress it,
 and upload the zip to ArcGIS Online).
 
 <a href='{{ '/assets/images/share-as-web-layer.png' | relative_url }}' target="_blank">
@@ -95,58 +72,24 @@ Share as web layer" width='100%' height='100%' style="border: 3px solid #888888;
 </a>
 
 ### Clipping data in QGIS
-• Load your large data layer into QGIS. You'll also need a layer defining your
-clip area.
 
-<a href='{{ '/assets/images/qgs-layers.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/qgs-layers.png' | relative_url }}' alt="
-Dissemination area layer and clip area layer in QGIS" width='100%' height='100%' style="border: 3px solid #888888;" />
-</a>
+• MDL has a separate tutorial for this too.
+<b>Follow the steps <a href="https://mdlutoronto.github.io/clipping-vector-data-in-arcgis-pro/"
+target="_blank">here</a>.</b>
 
-• Open the <b>Processing Toolbox</b> by clicking the <b>View -> Panels -> Processing
-Toolbox</b> menu item.
-
-<a href='{{ '/assets/images/open-processing-toolbox.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/open-processing-toolbox.png' | relative_url }}' alt="
-View -> Panels => Processing Toolbox" width='70%' style="border: 3px solid #888888;" />
-</a>
-
-• Open the <b>Vector overlay -> Clip</b> tool.
-
-<a href='{{ '/assets/images/vector-overlay-clip.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/vector-overlay-clip.png' | relative_url }}' alt="
-Processing Toolbox -> Vector overlay -> Clip" width='70%' style="border: 3px solid #888888;" />
-</a>
-
-• Select your large layer as the <b>Input layer</b> and the clip ('cookie cutter')
-layer as the <b>Overlay layer</b>. Save the output as a <b>shapefile</b> to your
-computer. Click <b>Run</b>.
-
-<a href='{{ '/assets/images/qgis-clip-params.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/qgis-clip-params.png' | relative_url }}' alt="
-Clip tool parameters" width='100%' height='100%' style="border: 3px solid #888888;" />
-</a>
-
-• The tool should output a new layer cropped to your area of interest.
-
-<a href='{{ '/assets/images/qgis-clip-output.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/qgis-clip-output.png' | relative_url }}' alt="
-Clip tool output" width='100%' height='100%' style="border: 3px solid #888888;" />
-</a>
-
-• You can now zip (compress) the output shapefile and upload it to ArcGIS Online.
+• After performing the clip, <b>zip (compress) the output shapefile</b> and <b>upload</b> it to ArcGIS Online.
 More information on this is in
 <a href="https://doc.arcgis.com/en/arcgis-online/reference/shapefiles.htm" target="_blank">
 Esri's official documentation.</a>
 
 ### Clipping data in ArcGIS Online
-We recommend using desktop GIS software to clip or otherwise preprocess
+We recommend using the desktop options described above to clip or otherwise preprocess
 your data. However, if your large data layer has already been uploaded to
-ArcGIS Online, or if you are unable to access desktop software, you can perform
+ArcGIS Online, or if you are unable to access QGIS or ArcGIS Pro, you can perform
 the clip in ArcGIS Online itself. After the data has been clipped, you will
 <b>delete the original layer</b> and keep only the output of the clip operation.
 
-Here is how this can be done:
+Here is how you can do this:
 
 • Log in to ArcGIS Online. Open the large layer in the <b>Map Viewer</b>.
 Optionally add a clip layer representing your study area.

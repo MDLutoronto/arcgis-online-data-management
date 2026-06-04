@@ -2,7 +2,7 @@
 title: ArcGIS Online data management   # Title of the page, which will be displayed in the navigation and the browser title.
 layout: page  # Layout type, usually 'page' for standard pages.
 nav_order: 0  # Order in the navigation menu.
-description: Strategies for effectively managing content hosted in UofT's ArcGIS Online instance # A brief description of the page for SEO purposes.
+description: Strategies for effectively managing your content hosted in UofT's ArcGIS Online instance # A brief description of the page for SEO purposes.
 permalink: /  # Optional: Custom URL for the page. It will serve as the slug. For example, /home/
 created_date: 2026-05-29 # Date when the page was created. Should be in YYYY-MM-DD format.
 has_children: True  # Set to True if the page has sub-pages.
