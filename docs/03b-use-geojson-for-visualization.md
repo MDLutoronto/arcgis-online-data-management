@@ -1,7 +1,7 @@
 ---
 title: Use GeoJSON for simple visualization   # Title of the page, which will be displayed in the navigation and the browser title.
 layout: page  # Layout type, usually 'page' for standard pages.
-nav_order: 6  # Order in the navigation menu.
+nav_order: 1  # Order in the navigation menu.
 parent: Managing feature storage
 grand_parent: ArcGIS Online data management
 created_date: 2026-05-29 # Date when the page was created. Should be in YYYY-MM-DD format.

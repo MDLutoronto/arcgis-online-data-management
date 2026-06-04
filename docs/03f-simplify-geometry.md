@@ -1,7 +1,7 @@
 ---
 title: Reduce layer complexity by simplifying geometry  # Title of the page, which will be displayed in the navigation and the browser title.
 layout: page  # Layout type, usually 'page' for standard pages.
-nav_order: 4 # Order in the navigation menu.
+nav_order: 5 # Order in the navigation menu.
 parent: Managing feature storage
 grand_parent: ArcGIS Online data management
 created_date: 2026-05-29 # Date when the page was created. Should be in YYYY-MM-DD format.
