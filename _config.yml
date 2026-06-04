@@ -1,6 +1,6 @@
 ## Site settings
 title: "ArcGIS Online Data Management"
-description: "Strategies for effectively managing content hosted in UofT's ArcGIS Online instance"
+description: "Workshops and guides from the Map & Data Library, University of Toronto"
 url: "https://MDLutoronto.github.io/arcgis-online-data-management" # change the slug to the repo's name ('jtd-template' in this case)
 repository: "MDLutoronto/arcgis-online-data-management" # for github-metadata
 ## Navigation footer logos and links
