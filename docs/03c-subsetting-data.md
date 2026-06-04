@@ -26,71 +26,32 @@ Jump to:
 
 ### Subsetting in ArcGIS Pro
 
-See our <b><a href="/arcgis-pro-extracting-geographic-features-from-larger-dataset/"
+<img src='{{ '/assets/images/arcgis-pro-logo.png' | relative_url }}' alt="
+ArcGIS Pro logo" width='60%' />
+
+<b>See our <a href="/arcgis-pro-extracting-geographic-features-from-larger-dataset/"
 target="_blank">Extracting the geographic features you need from a larger dataset in
-ArcGIS Pro</a></b> to learn how to subset data in Pro.
+ArcGIS Pro</a> tutorial to learn how to subset data in Pro.</b>
+
+• Once you've created
+a subset layer, you can use ArcGIS Pro's <a href="https://doc.esri.com/en/arcgis-pro/latest/help/sharing/overview/introduction-to-sharing-web-layers.html"
+target="_blank">Share as web layer functionality</a> to
+add it to ArcGIS Online, or 
+<a href="https://doc.arcgis.com/en/arcgis-online/reference/shapefiles.htm" target="_blank">
+upload a zipped shapefile</a> to the platform.
 
 ### Subsetting in QGIS
 
-• Open <b>QGIS</b> and load the layer you'd like to extract a subset of features from.
+<img src='{{ '/assets/images/qgis-logo.png' | relative_url }}' alt="
+ArcGIS Pro logo" width='60%' />
 
-<a href='{{ '/assets/images/qgis-layer-to-subset.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/qgis-layer-to-subset.png' | relative_url }}' alt="
-Layer to subset in QGIS" width='100%' height='100%' style="border: 3px solid #888888;" />
-</a>
+<b>We also have a tutorial on <a href="/qgis-extracting-geographic-features-from-larger-dataset/"
+target="_blank">Extracting the geographic features you need from a larger dataset in
+QGIS</a></b>.
 
-• Right-click the layer name in the <b>Layers panel</b> and choose <b>Open
-attribute table</b>.
-
-<a href='{{ '/assets/images/qgis-open-attribute-table.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/qgis-open-attribute-table.png' | relative_url }}' alt="
-Right-click layer -> Open attribute table" width='70%' style="border: 3px solid #888888;" />
-</a>
-
-• Click the <b>Select by expression</b> button.
-
-<a href='{{ '/assets/images/qgis-select-by-expression.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/qgis-select-by-expression.png' | relative_url }}' alt="
-Attribute table -> Select by expression" width='100%' height='100%' style="border: 3px solid #888888;" />
-</a>
-
-• <b>Build a query</b> to select your features of interest (more information on
-queries in QGIS can be found
-<a href = "https://docs.qgis.org/latest/en/docs/user_manual/expressions/expression.html" target="_blank">
-in the official documentation.</a>). Click <b>Select features</b>, then click
-<b>Close</b>.
-
-<a href='{{ '/assets/images/qgis-selection-query.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/qgis-selection-query.png' | relative_url }}' alt='
-QGIS selection expression - in this example, "PRUID" = 12' width='100%' height='100%' style="border: 3px solid #888888;" />
-</a>
-
-• Result: selected features will be <b>highlighted in yellow</b> on the map canvas, and the
-count of selected features will be displayed in the QGIS status bar.
-
-<a href='{{ '/assets/images/qgis-selected-features.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/qgis-selected-features.png' | relative_url }}' alt='
-Display of selected features in QGIS.' width='100%' height='100%' style="border: 3px solid #888888;" />
-</a>
-
-• Right-click the layer name again and choose <b>Export -> Save Selected
-Features As...</b>
-
-<a href='{{ '/assets/images/save-selected-features-as.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/save-selected-features-as.png' | relative_url }}' alt='
-Export -> Save selected features as' width='100%' height='100%' style="border: 3px solid #888888;" />
-</a>
-
-• Save the output to your computer as an <b>Esri Shapefile</b>. Click <b>OK</b>.
-
-<a href='{{ '/assets/images/save-as-shapefile.png' | relative_url }}' target="_blank">
-<img src='{{ '/assets/images/save-as-shapefile.png' | relative_url }}' alt='
-Save as shapefile' width='100%' height='100%' style="border: 3px solid #888888;" />
-</a>
-
-• You can now zip (compress) the output shapefile and upload it to ArcGIS Online. More
-information on this is in
-<a href="https://doc.arcgis.com/en/arcgis-online/reference/shapefiles.htm" target="_blank">Esri's official documentation.</a>
+• Once you've extracted a subset of your dataset by following these steps,
+you can save the output as a zipped shapefile and <a href="https://doc.arcgis.com/en/arcgis-online/reference/shapefiles.htm" target="_blank">upload it to your
+ArcGIS Online content</a>.
 
 ### Subsetting in ArcGIS Online
 
