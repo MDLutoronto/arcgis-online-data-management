@@ -69,26 +69,30 @@ target="_blank">Geospatial Analysis with Python & Jupyter Notebooks</a>
 
 ### Other options for web-based projects
 
-<b>If you have web development skills (HTML, CSS, JavaScript), or would like to
+* If you'd like to work in ArcGIS Online but want to keep your content after
+leaving the university, the
+<a href="https://community.esri.com/t5/arcgis-online-public-account-community/arcgis-online-public-accounts-getting-started/ba-p/1305110" target="_blank">
+free version of ArcGIS Online</a> (called a 'public account') is not tied to an
+institutional subscription and may meet your needs. It's also often possible to work
+in UofT's ArcGIS Online and transfer your content to a free account later.
+
+* As an alternative to ArcGIS Online, effective web-based digital mapping projects can be
+created with free web-based tools such as
+<a href="https://flourish.studio/" target="_blank">Flourish</a> or
+<a href="https://storymap.knightlab.com/" target="_blank">StoryMapJS</a>.
+
+* <b>If you have web development skills (HTML, CSS, JavaScript), or would like to
 learn them</b>, you could deploy your own custom digital projects, including web
 maps, to a free web hosting platform such as
 <a href="https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-pages/" target="_blank">
-GitHub Pages</a>. 
-
-And, if you use open source
-web mapping tools, such as <a href="https://leafletjs.com/" target="_blank">
-Leaflet</a>, you won't be bound to any subscription
-model. This means you'll be able to continue using the tools after you leave the
-university.
-
-<b>For a beginner-friendly example of this, please see MDL's
+GitHub Pages</a>. <b>For a beginner-friendly example of this, please see MDL's
 <a href="https://mdlutoronto.github.io/qgis2web-github-pages/" target="_blank">
-Open source web map creation with qgis2web andvGitHub Pages</a> tutorial.</b>
+Open source web map creation with qgis2web and GitHub Pages</a> tutorial.</b>
 
-<b><a href="https://mdl.library.utoronto.ca/about/contact-form" target="_blank">
+<a href="https://mdl.library.utoronto.ca/about/contact-form" target="_blank">
 Get in contact with the Map and Data Library</a>
 if you'd like help in choosing the right tool for your project, or assistance
-in getting started with any of these options.</b>
+in getting started with any of these options.
 
 If you <i>are</i> using ArcGIS Online, the following pages contain 
 guidance on how to manage your data effectively.
