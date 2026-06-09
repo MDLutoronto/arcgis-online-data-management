@@ -81,6 +81,10 @@ Leaflet</a>, you won't be bound to any subscription
 model. This means you'll be able to continue using the tools after you leave the
 university.
 
+<b>For a beginner-friendly example of this, please see MDL's
+<a href="https://mdlutoronto.github.io/qgis2web-github-pages/" target="_blank">
+Open source web map creation with qgis2web andvGitHub Pages</a> tutorial.</b>
+
 <b><a href="https://mdl.library.utoronto.ca/about/contact-form" target="_blank">
 Get in contact with the Map and Data Library</a>
 if you'd like help in choosing the right tool for your project, or assistance
