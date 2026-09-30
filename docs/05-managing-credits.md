@@ -62,7 +62,7 @@ solve this problem. Here are some options for your consideration:
 Premium North America</b> as an alternative to their web-based geocoding service. StreetMap
 Premium is a licensed data product
 designed to work with ArcGIS Pro, and includes offline locators. If you think StreetMap Premium would be helpful for your work, please
-<a href="https://mdl.library.utoronto.ca/about/contact-form" target="_blank">
+<a href="https://library.utoronto.ca/contact-us/data-maps" target="_blank">
 contact the Map and Data Library</a> to request a license and a download link.
 
 * <b>Open, downloadable locators</b>: <b>Free ArcGIS Pro locators</b> are available from the
