@@ -59,7 +59,7 @@ platform.
 The pages in this guide contain more information on ArcGIS Online's storage and
 credit models, plus strategies for managing the data in your ArcGIS Online
 account. If you'd like any help, you are welcome to 
-<a href="https://mdl.library.utoronto.ca/about/contact-form" target="_blank">
+<a href="https://library.utoronto.ca/contact-us/data-maps" target="_blank">
 get in contact with the Map and Data Library</a>.
 
 **Techniques:** [Cleaning data](https://mdlutoronto.github.io/tutorials-search/?technique=Cleaning+data),
