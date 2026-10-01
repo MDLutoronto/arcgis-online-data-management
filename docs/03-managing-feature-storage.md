@@ -32,5 +32,5 @@ It's free, and will run on all major operating systems (Windows, Mac, Linux).
 
 The Map and Data Library staff are also
 happy to help you get started!
-<a href="https://mdl.library.utoronto.ca/about/contact-form" target="_blank">Contact us</a>
+<a href="https://library.utoronto.ca/contact-us/data-maps" target="_blank">Contact us</a>
 if you have any questions.

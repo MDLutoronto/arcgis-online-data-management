@@ -22,8 +22,7 @@ platform consume credits, which are also purchased from Esri.
 consume credits when executed in ArcGIS Online. Notebooks, Data Pipelines, and Model
 Builder also use credits. Each new user in the system is granted 2,000
 credits by default to use for these operations. If you run out of credits, you
-can <a href="https://mdl.library.utoronto.ca/about/contact-form"
-target="_blank">contact the Map and Data Library</a>. Depending on the tools
+can <a href="https://library.utoronto.ca/contact-us/data-maps"_blank">contact the Map and Data Library</a>. Depending on the tools
 you're using and the projected credit expenditure, we will either <b>grant you
 more credits</b> from UofT's organizational credit pool or <b>advise on workarounds</b>.
 
