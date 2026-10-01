@@ -47,7 +47,7 @@ faculty.
 <b>You'll lose access to ArcGIS Online once you leave the university</b>.
 Additionally, to manage data storage, <b>old content is periodically removed</b> (see the
 Map and Data Library's
-<a href="https://mdl.library.utoronto.ca/technology/gis-software/arcgis-online-data-retention-policy" target="_blank">
+<a href="https://library.utoronto.ca/policy/university-toronto-arcgis-online-data-retention-policy-0" target="_blank">
 data retention policy</a> for more information on this).
 
 Because ArcGIS Online is a <b>shared, university-wide system with limited
