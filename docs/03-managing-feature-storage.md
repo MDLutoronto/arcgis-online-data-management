@@ -23,7 +23,7 @@ Note: Many of the workflow examples here use <a href="https://mdlutoronto.github
 desktop complement to ArcGIS Online. You can <a href="https://mdlutoronto.github.io/arcgis-pro-install-license/"
 target="_blank">download and install Pro on your own Windows device</a>, or
 access it on
-<a href="https://mdl.library.utoronto.ca/technology/computers-with-gis-software"
+<a href="https://faq.library.utoronto.ca/faq/where-can-i-find-computers-gis-software?_gl=1*vqbvof*_ga*MjE0MTczMTE2LjE3OTEzODI2MDE.*_ga_N97V7GPQQJ*czE3OTEzODI2MDEkbzEkZzEkdDE3OTEzOTk2NjYkajUkbDAkaDA."
 target="_blank">campus computers</a>.
 
 If you aren't able to run ArcGIS Pro,
